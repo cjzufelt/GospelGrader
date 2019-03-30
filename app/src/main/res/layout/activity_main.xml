@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:background="@mipmap/ANCIENT_TAMIL_SCRIPTURE">
-
+    tools:context=".MainActivity"
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -20,19 +19,23 @@
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true">
 
-        <Button
-            android:id="@+id/scripturesButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/scriptures"/>
+            <Button
+                android:id="@+id/scripturesButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/scriptures"
+                android:textSize="30dp"
+                android:textColor="@color/colorPrimaryDark"/>
 
-        <Button
-            android:id="@+id/leaderboardButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/leaderboard" />
+            <Button
+                android:id="@+id/leaderboardButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/leaderboard"
+                android:textSize="30dp"
+                android:textColor="@color/colorPrimaryDark"/>
 
         </LinearLayout>
 
