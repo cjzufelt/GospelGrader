@@ -1,3 +1,5 @@
+// TODO: Use the JSON and remove 1 Nephi 1 hardcoded text
+
 package com.cjzufelt.gospelgrader;
 
 import android.content.Intent;
@@ -21,17 +23,25 @@ public class MainActivity extends AppCompatActivity {
         scriptures.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent scripturesIntent = new Intent(this, ScripturesActivity.class);
-                startActivity(scripturesIntent);
+                switchToScriptures();
             }
         });
 
         leaderboard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent leaderboardIntent = new Intent(this, LeaderboardActivity.class);
-                startActivity(leaderboardIntent);
+                switchToLeaderboard();
             }
         });
+    }
+
+    void switchToScriptures() {
+        Intent scripturesIntent = new Intent(this, ScripturesActivity.class);
+        startActivity(scripturesIntent);
+    }
+
+    void switchToLeaderboard() {
+        Intent leaderboardIntent = new Intent(this, LeaderboardActivity.class);
+        startActivity(leaderboardIntent);
     }
 }

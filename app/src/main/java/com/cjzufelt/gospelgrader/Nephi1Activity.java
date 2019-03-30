@@ -19,9 +19,13 @@ public class Nephi1Activity extends AppCompatActivity {
         chapter1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent scripturesIntent = new Intent(this, ScripturesActivity.class);
-                startActivity(scripturesIntent);
+                switchToChapter1();
             }
         });
+    }
+
+    void switchToChapter1() {
+        Intent scripturesIntent = new Intent(this, Nephi1Chapter1Activity.class);
+        startActivity(scripturesIntent);
     }
 }
