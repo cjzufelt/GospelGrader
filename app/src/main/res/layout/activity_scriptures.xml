@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScripturesActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:columnCount="3" >
+            <Button
+                android:id="@+id/nephi1"
+                android:height="120dp"
+                android:width="120dp"
+                android:gravity="center"
+                android:text="1 Nephi"/>
+
+            <Button
+                android:height="120dp"
+                android:width="120dp"
+                android:layout_gravity="center"
+                android:text="2 Nephi"/>
+
+            <Button
+                android:height="120dp"
+                android:width="120dp"
+                android:layout_gravity="center"
+                android:text="Jacob"/>
+
+            <Button
+                android:height="120dp"
+                android:width="120dp"
+                android:layout_gravity="center"
+                android:text="Enos"/>
+
+            <Button
+                android:height="120dp"
+                android:width="120dp"
+                android:layout_gravity="center"
+                android:text="Jarom"/>
+
+            <Button
+                android:height="120dp"
+                android:width="120dp"
+                android:layout_gravity="center"
+                android:text="Omni"/>
+
+            <Button
+                android:height="120dp"
+                android:width="120dp"
+                android:layout_gravity="center"
+                android:text="Words of Mormon"/>
+
+            <Button
+                android:height="120dp"
+                android:width="120dp"
+                android:layout_gravity="center"
+                android:text="Mosiah"/>
+
+            <Button
+                android:height="120dp"
+                android:width="120dp"
+                android:layout_gravity="center"
+                android:text="Alma"/>
+
+            <Button
+                android:height="120dp"
+                android:width="120dp"
+                android:layout_gravity="center"
+                android:text="Helaman"/>
+
+            <Button
+                android:height="120dp"
+                android:width="120dp"
+                android:layout_gravity="center"
+                android:text="3 Nephi"/>
+
+            <Button
+                android:height="120dp"
+                android:width="120dp"
+                android:layout_gravity="center"
+                android:text="4 Nephi"/>
+
+            <Button
+                android:height="120dp"
+                android:width="120dp"
+                android:layout_gravity="center"
+                android:text="Mormon"/>
+
+            <Button
+                android:height="120dp"
+                android:width="120dp"
+                android:layout_gravity="center"
+                android:text="Ether"/>
+
+            <Button
+                android:height="120dp"
+                android:width="120dp"
+                android:layout_gravity="center"
+                android:text="Moroni"/>
+
+
+        </GridLayout>
+
+    </RelativeLayout>
+
+    <!--
+    <GridView
+        android:id="@+id/scripturesGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="auto_fit"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEST"/>
+
+    </GridView>
+    -->
+</android.support.constraint.ConstraintLayout>
